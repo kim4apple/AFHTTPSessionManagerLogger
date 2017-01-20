@@ -1,6 +1,6 @@
 # AFHTTPSessionManagerLogger
 
-> Inspire by AFHTTPClientLogger.
+> Logger for AFNetworking 3.x. Inspire by AFHTTPClientLogger.
 
 **AFHTTPSessionManagerLogger** is a request logging extension for [AFNetworking][].  It
 
