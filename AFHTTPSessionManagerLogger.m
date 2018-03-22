@@ -30,9 +30,9 @@
 
 #if __has_include(<CocoaLumberjack/DDLogMacros.h>)
 #import <CocoaLumberjack/DDLogMacros.h>
-// Global log level for the whole library, not per-file.
-extern DDLogLevel ddLogLevel;
-// const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+
+static DDLogLevel ddLogLevel = DDLogLevelVerbose;
+
 #else
 #define DDLogError(...)   NSLog(__VA_ARGS__)
 #define DDLogWarn(...)    NSLog(__VA_ARGS__)
